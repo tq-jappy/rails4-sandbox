@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 group :development, :test do
-  gem "rspec-rails", "~> 2.14.0"
+  gem "rspec-rails", "~> 2.99.0.rc1"
   gem "factory_girl_rails", "~> 4.2.1"
 end
 
