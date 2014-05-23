@@ -1,4 +1,4 @@
-hello-rails4
+rails4-sandbox
 ============
 
-Sample Rails 4.1.0 application
+Simple Rails 4.1.0 application
