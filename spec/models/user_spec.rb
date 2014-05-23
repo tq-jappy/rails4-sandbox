@@ -7,6 +7,6 @@ describe "User" do
   end
 
   it "is invalid without an email" do
-    expect(build(:user, email: nil)).to have(1).errors_on(:email)
+    expect(build(:user, email: nil).errors_on(:email).size).to eql 1
   end
 end
